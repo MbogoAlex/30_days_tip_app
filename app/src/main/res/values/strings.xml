@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Tips</string>
+
+    <string name="day_1">Day 1</string>
+    <string name="day_1_heading">Deep Breathing Bliss</string>
+    <string name="day_1_desc">Today, embrace the power of deep breathing exercises. Inhale positivity, exhale negativity, and let the calming energy flow through your body.</string>
+
+    <string name="day_2">Day 2</string>
+    <string name="day_2_heading">Morning Stretch Routine</string>
+    <string name="day_2_desc">Kickstart your day with a refreshing morning stretch. Reach for the sky, awaken your muscles, and set a positive tone for the day ahead.</string>
+
+    <string name="day_3">Day 3</string>
+    <string name="day_3_heading">Mindful Meditation</string>
+    <string name="day_3_desc">Discover the joy of mindful meditation. Take a few moments to clear your mind, center yourself, and cultivate a sense of inner peace and focus.</string>
+
+    <string name="day_4">Day 4</string>
+    <string name="day_4_heading">Hydration Boost</string>
+    <string name="day_4_desc">Explore the benefits of hydration. Drink plenty of water throughout the day to nourish your body, boost energy levels, and enhance overall well-being.</string>
+
+    <string name="day_5">Day 5</string>
+    <string name="day_5_heading">Gratitude Reflection</string>
+    <string name="day_5_desc">Practice gratitude today. Reflect on the positive aspects of your life, express appreciation, and cultivate a mindset of thankfulness for a happier outlook.</string>
+
+    <string name="day_6">Day 6</string>
+    <string name="day_6_heading">Digital Detox Day</string>
+    <string name="day_6_desc">Engage in a digital detox. Unplug from screens, savor moments of quiet, and reconnect with the real world to reduce stress and improve mental clarity</string>
+
+    <string name="day_7">Day 7</string>
+    <string name="day_7_heading">Quality Sleep Ritual</string>
+    <string name="day_7_desc">Prioritize quality sleep. Create a calming bedtime routine, unwind from the day, and enjoy a restful night\'s sleep for improved physical and mental health.</string>
+
+    <string name="day_8">Day 8</string>
+    <string name="day_8_heading">Energetic Workout Session</string>
+    <string name="day_8_desc">Energize your body with a quick and invigorating workout. Whether it\'s a brisk walk or a full workout session, get your heart pumping and feel the endorphins flow.</string>
+
+    <string name="day_9">Day 9</string>
+    <string name="day_9_heading">Nutrient-Rich Meal</string>
+    <string name="day_9_desc">Nourish your body with a colorful and nutritious meal. Enjoy a variety of fruits, vegetables, and whole foods to fuel your body with essential nutrients.</string>
+
+    <string name="day_10">Day 10</string>
+    <string name="day_10_heading">Connection Moments</string>
+    <string name="day_10_desc">Foster connections with loved ones. Reach out, share laughter, and strengthen relationships to enhance your social well-being and overall happiness.</string>
+
+    <string name="day_11">Day 11</string>
+    <string name="day_11_heading">Passionate Hobby Time</string>
+    <string name="day_11_desc">Embrace a new hobby or activity that brings you joy. Whether it\'s painting, dancing, or playing an instrument, indulge in something that sparks your passion.</string>
+
+    <string name="day_12">Day 12</string>
+    <string name="day_12_heading">Mindful Tech Break</string>
+    <string name="day_12_desc">Engage in a digital mindfulness session. Practice being present in the moment, away from distractions, to boost focus and reduce stress.</string>
+
+    <string name="day_13">Day 13</string>
+    <string name="day_13_heading">Self-Care Pampering</string>
+    <string name="day_13_desc">Pamper yourself with self-care. Take a relaxing bath, indulge in a skincare routine, or do something special for yourself to promote mental and emotional well-being.</string>
+
+    <string name="day_14">Day 14</string>
+    <string name="day_14_heading">Positive Mindset Cultivation</string>
+    <string name="day_14_desc">Cultivate a positive mindset. Challenge negative thoughts, reframe situations optimistically, and foster a mental attitude that supports your overall well-being.</string>
+
+    <string name="day_15">Day 15</string>
+    <string name="day_15_heading">Nature Walk Serenity</string>
+    <string name="day_15_desc">Take a nature walk. Spend time outdoors, breathe in the fresh air, and appreciate the beauty of the natural world for a refreshing perspective.</string>
+
+    <string name="day_16">Day 16</string>
+    <string name="day_16_heading">Mindful Eating Practice</string>
+    <string name="day_16_desc">Practice mindful eating. Slow down, savor each bite, and pay attention to your body\'s hunger and fullness cues for a healthier relationship with food.</string>
+
+    <string name="day_17">Day 17</string>
+    <string name="day_17_heading">Relaxation Technique Time</string>
+    <string name="day_17_desc">Incorporate relaxation techniques. Whether it\'s through meditation, deep breathing, or progressive muscle relaxation, find a method that helps you unwind and destress.</string>
+
+    <string name="day_18">Day 18</string>
+    <string name="day_18_heading">Digital Detox Zone</string>
+    <string name="day_18_desc">Establish a digital boundary. Set limits on screen time, create tech-free zones, and foster a healthier relationship with technology for improved well-being.</string>
+
+    <string name="day_19">Day 19</string>
+    <string name="day_19_heading">Optimal Sleep Environment</string>
+    <string name="day_19_desc">Cultivate a positive sleep environment. Create a calming bedtime space, eliminate distractions, and optimize your surroundings for a restful night\'s sleep.</string>
+
+    <string name="day_20">Day 20</string>
+    <string name="day_20_heading">Emotional Wellness</string>
+    <string name="day_20_desc">Connect with your emotions. Journal your thoughts, express your feelings, and engage in activities that promote emotional awareness and well-being.</string>
+
+    <string name="day_21">Day 21</string>
+    <string name="day_21_heading">Literary Escape Time</string>
+    <string name="day_21_desc">Revisit a favorite book or discover a new one. Lose yourself in the pages, let your imagination roam, and enjoy the mental escape literature provides.</string>
+
+    <string name="day_22">Day 22</string>
+    <string name="day_22_heading">New Exercise Adventure</string>
+    <string name="day_22_desc">Try a new form of exercise. Whether it\'s yoga, pilates, or a dance class, explore different physical activities to keep your fitness routine exciting.</string>
+
+    <string name="day_23">Day 23</string>
+    <string name="day_23_heading">Mindfulness Walk</string>
+    <string name="day_23_desc">Engage in a mindfulness walk. Pay attention to your surroundings, focus on each step, and experience the benefits of a meditative stroll for mental clarity.</string>
+
+    <string name="day_24">Day 24</string>
+    <string name="day_24_heading">Decluttering Zen</string>
+    <string name="day_24_desc">Declutter your living space. Create an organized and tidy environment to promote a sense of calm, reduce stress, and enhance overall well-being.</string>
+
+    <string name="day_25">Day 25</string>
+    <string name="day_25_heading">Affirmation Power</string>
+    <string name="day_25_desc">Practice positive affirmations. Speak words of encouragement and empowerment to yourself, fostering a mindset that supports your personal growth and well-being.</string>
+
+    <string name="day_26">Day 26</string>
+    <string name="day_26_heading">Kindness Impact</string>
+    <string name="day_26_desc">Volunteer or perform a random act of kindness. Extend a helping hand, spread joy, and experience the fulfillment that comes from making a positive impact.</string>
+
+    <string name="day_27">Day 27</string>
+    <string name="day_27_heading">Relaxation Discovery</string>
+    <string name="day_27_desc">Explore a new relaxation technique. Whether it\'s guided imagery, progressive muscle relaxation, or aromatherapy, discover what brings tranquility to your mind.</string>
+
+    <string name="day_28">Day 28</string>
+    <string name="day_28_heading">Accomplishment Celebration</string>
+    <string name="day_28_desc">Reflect on your accomplishments. Celebrate your achievements, both big and small, and acknowledge the progress you\'ve made in your wellness journey.</string>
+
+    <string name="day_29">Day 29</string>
+    <string name="day_29_heading">Loved Ones Reunion</string>
+    <string name="day_29_desc">Reconnect with a loved one. Reach out to a friend or family member, share your experiences, and strengthen the bonds that contribute to your emotional well-being.</string>
+
+    <string name="day_30">Day 30</string>
+    <string name="day_30_heading">Future Wellness Goals</string>
+    <string name="day_30_desc">Set new wellness goals. Reflect on the past 30 days, identify areas of improvement, and establish realistic and positive goals for continued well-being.</string>
+
+</resources>
