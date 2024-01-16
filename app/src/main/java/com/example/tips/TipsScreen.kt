@@ -1,6 +1,11 @@
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.animate
+import androidx.compose.animation.core.spring
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -17,6 +22,10 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -49,22 +58,32 @@ fun TipItem(
     tip: Tip,
     modifier: Modifier = Modifier
 ) {
+    var expanded by remember {
+        mutableStateOf(false)
+    }
     Card (
         modifier = Modifier
             .padding(10.dp)
+            .clickable(
+                onClick = {
+                    expanded = !expanded
+                }
+            )
+
     ) {
         TipInformation(
             dayName = tip.dayName,
             tipHeading = tip.tipHeading,
             tipImage = tip.tipImage,
             tipBody = tip.tipBody,
-
+            expanded = expanded
         )
     }
 }
 
 @Composable
 fun TipInformation(
+    expanded: Boolean,
     @StringRes dayName: Int,
     @StringRes tipHeading: Int,
     @DrawableRes tipImage: Int,
@@ -75,6 +94,13 @@ fun TipInformation(
         modifier = Modifier
             .padding(20.dp)
             .fillMaxWidth()
+            .animateContentSize(
+                animationSpec = spring(
+                    dampingRatio = Spring.DampingRatioMediumBouncy,
+                    stiffness = Spring.StiffnessMedium
+                )
+            )
+
     ) {
         Text(
             text = stringResource(id = dayName),
@@ -96,10 +122,12 @@ fun TipInformation(
                     bottom = 5.dp
                 )
         )
-        Text(
-            text = stringResource(id = tipBody),
-            style = MaterialTheme.typography.bodyLarge
-        )
+        if(expanded) {
+            Text(
+                text = stringResource(id = tipBody),
+                style = MaterialTheme.typography.bodyLarge
+            )
+        }
     }
 
 }
